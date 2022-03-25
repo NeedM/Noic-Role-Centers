@@ -1,0 +1,42 @@
+{
+  "id": "3f27ac08-cbae-49f5-85c4-2bd0a18df991",
+  "name": "Noic Role Centers",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "target": "OnPrem",
+  "platform": "19.0.29884.30666",
+  "runtime": "8.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "dependencies": [
+    {
+      "id": "c1335042-3002-4257-bf8a-75c898ccb1b8",
+      "name": "Application",
+      "version": "19.0.0.0",
+      "publisher": "Microsoft"
+    },
+  
+    
+    {
+      "id": "bec2a381-a872-4e0a-9f1e-bb1fafd2fb30",
+      "name": "Loading",
+      "publisher": "Gutridge Business Solutions",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "ef9a2d59-1ed7-413b-86ab-98811d59486a",
+      "name": "Requisitions",
+      "publisher": "Gutridge Business Solutions",
+      "version": "1.0.0.12"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50549
+    }
+  ]
+}
